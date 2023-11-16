@@ -1,3 +1,3 @@
-import hitAPI from "./weatherAPI";
+import processData from "./weatherAPI";
 
-hitAPI();
+processData();
