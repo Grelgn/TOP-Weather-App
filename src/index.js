@@ -1,3 +1,3 @@
-import processData from "./weatherAPI";
+import sendInput from "./handleForm";
 
-processData();
+sendInput();
