@@ -1,0 +1,66 @@
+body {
+	margin: 0;
+	height: 100vh;
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+		"Lucida Sans", Arial, sans-serif;
+	background-color: #082f49;
+	display: grid;
+	justify-items: center;
+	grid-template-rows: 1fr 5fr;
+}
+
+form {
+	padding: 32px;
+}
+
+input,
+button {
+	padding: 6px;
+	margin: 4px;
+	border: 1px black;
+	border-radius: 8px;
+}
+
+button {
+	cursor: pointer;
+	background-color: #3b82f6;
+	font-weight: bold;
+	color: white;
+}
+
+.info {
+	display: grid;
+	grid-template-rows: 1fr 2fr 3fr;
+	color: #3b82f6;
+	font-weight: bold;
+}
+
+.location,
+.temp_c {
+	font-size: 36px;
+}
+
+.location {
+	display: grid;
+	align-content: center;
+	justify-content: center;
+}
+
+.current {
+	display: grid;
+	grid-template: 3fr 1fr 1fr 1fr / 1fr 1fr;
+	align-items: center;
+	justify-items: center;
+	padding: 0 128px;
+}
+
+.condition {
+	display: grid;
+	justify-items: center;
+}
+
+.feelslike_c,
+.humidity,
+.wind {
+	grid-column: span 2;
+}

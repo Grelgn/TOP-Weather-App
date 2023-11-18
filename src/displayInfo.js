@@ -8,8 +8,6 @@ const humidity = document.querySelector(".humidity");
 const wind = document.querySelector(".wind");
 
 export default function displayInfo(data) {
-	console.log(data);
-
 	name.textContent = data.location.name;
 	country.textContent = data.location.country;
 	icon.src = `https:${data.current.condition.icon}`;
